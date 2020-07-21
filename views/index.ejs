@@ -1,0 +1,33 @@
+<%- include('partials/header.ejs') %>
+        <h1> Programming Languages Overview </h1>
+        <br>
+        <p>Which would you like to know more about? </p>
+        <%- include('partials/nav.ejs') %>
+        <img src="/img/comp.png" alt="Awful computer language art"/>
+        <br>
+        <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-8">
+                A programming language is nothing more than a set of instructions with expected outcomes that
+                we can use to make computers do things humans couldnt otherwise accomplish. They are the words
+                we use to make the rocks think for us.
+            </div>
+        </div>
+        <br><br>
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <blockquote class="blockquote">
+                  <p class="mb-0">Never <%= verb%> the <%= adjective%> <%= noun%></p>
+                  <footer class="blockquote-footer"><%= fname%> <%= lname%> <cite title="Source Title"><%= companyName%></cite></footer>
+                </blockquote>
+            </div>
+        </div>
+        <br><br>
+        <div class="row justify-content-center">
+            <div class="col-8">
+                This is just a random cat image cause i thought you would be bored of all the random quotes.
+                <img src="<%= cat%>" alt="random cat">
+            </div>
+        </div>
+    </div>
+<%- include('partials/footer.ejs') %>
